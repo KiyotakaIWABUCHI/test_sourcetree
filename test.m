@@ -10,3 +10,5 @@ diff_line_3D=double(diff_line_3D).*double(sum_total)/(double(size(bitplanes,3)))
 diff_summing_line_2D=sum(abs(summing-diff_line_3D),3);
 noemalized255_result=diff_summing_line_2D/max(max(diff_summing_line_2D))*255;
 binary_result=double(noemalized255_result>=th)*255;
+
+%% comment
